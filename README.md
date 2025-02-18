@@ -15,7 +15,7 @@ We will use the [**`scream_detection_heavy_metal`**](https://huggingface.co/data
 
 ## Context
 
-Previous work by the curators of the dataset has been done on this problem, with limited performance. Their results can be accessed [here](https://arxiv.org/pdf/2205.05580). This project will attempt to expand on these results by experimenting with similar feature transformations, as well as other classical models, audio transformers, deep learning models, and pretrained models. 
+Previous work by the curators of the dataset has been done on this problem, with limited performance due to significant class imbalance. Their results can be accessed [here](https://arxiv.org/pdf/2205.05580). This project will attempt to expand on these results by experimenting with similar feature transformations, as well as other classical models, audio transformers, deep learning models, and pretrained models. 
 
 ## References
 
