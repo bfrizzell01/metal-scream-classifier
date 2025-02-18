@@ -10,4 +10,6 @@ dependencies:
   - pyarrow
   - fastparquet
   - librosa
+  - click
+  - huggingface_hub
 prefix: /Users/benjaminfrizzell/miniforge3/envs/metal-scream-classifier
