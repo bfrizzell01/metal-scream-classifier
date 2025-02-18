@@ -44,7 +44,7 @@ Ready to contribute? Here's how to set up `metal-scream-classifier` for local de
 
 1. Download a copy of `metal-scream-classifier` locally:
     ```console
-    $ git pull git@github.com:bfrizzell01/metal-scream-classifier.git
+    $ git clone git@github.com:bfrizzell01/metal-scream-classifier.git
     ```
 
 3. Use `git` (or similar) to create a branch for local development and make your changes:
