@@ -11,6 +11,13 @@ This project will attempt to use a variety of machine learning methods to classi
 
 ## Dataset
 
+<iframe
+  src="https://huggingface.co/datasets/jpdiazpardo/scream_detection_heavy_metal/embed/viewer/default/train"
+  frameborder="0"
+  width="100%"
+  height="560px"
+></iframe>
+
 We will use the [**`scream_detection_heavy_metal`**](https://huggingface.co/datasets/jpdiazpardo/scream_detection_heavy_metal) dataset openly available on [Hugging Face](https://huggingface.co/), curated by Vedant Kalbag and Alexander Lerch from the Music Informatics Group at the Georgia Institute of Technology, USA. 
 
 ## Context
