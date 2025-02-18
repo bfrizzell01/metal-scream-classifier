@@ -6,7 +6,7 @@ This project will attempt to use a variety of machine learning methods to classi
 - `lowfry`
 - `midfry`
 - `highfry`
-- `layered`
+- `layered` (Multiple vocals at once)
 - `clean`
 
 ## Dataset
