@@ -1,0 +1,13 @@
+name: metal-scream-classifier
+channels:
+  - conda-forge
+dependencies:
+  - pandas
+  - scikit-learn
+  - pytorch
+  - scipy
+  - ipykernel
+  - pyarrow
+  - fastparquet
+  - librosa
+prefix: /Users/benjaminfrizzell/miniforge3/envs/metal-scream-classifier
