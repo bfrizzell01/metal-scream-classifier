@@ -19,5 +19,5 @@ Previous work by the curators of the dataset has been done on this problem, with
 
 ## References
 
-1. Kalbag, Vedant, and Alexabder Lerch. ArXiv, vol. 2205.05580, 2022.
+1. Kalbag, Vedant, and Alexander Lerch. ArXiv, vol. 2205.05580, 2022.
 
