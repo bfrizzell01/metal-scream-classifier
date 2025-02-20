@@ -13,15 +13,15 @@ data/raw/raw_data.csv: src/download_data.py
 	python src/download_data.py \
 	--output-path-raw=data/raw/raw_data.csv
 
-# convert byte data to wav files
-data/wav/* data/raw/labels.csv: data/raw/raw_data.csv src/convert_to_wav.py
-	$(MAKE) data/wav
+# Convert to wav and create a marker file
+data/wav/.done: data/raw/raw_data.csv src/convert_to_wav.py | data/wav
 	python src/convert_to_wav.py \
 	--input-path-raw=data/raw/raw_data.csv \
 	--output-dir-wav=data/wav \
 	--output-path-labels=data/raw/labels.csv
+	touch data/wav/.done
 
-download-data: data/raw/raw_data.csv data/raw/labels.csv data/wav/*
+download-data: data/raw/raw_data.csv data/wav/.done data/raw/labels.csv
 
 clean-data:
 	rm -rf data
