@@ -1,6 +1,6 @@
 # Metal Scream Classifier
 
-Fans of heavy metal often have very particular tastes when it comes to their favourite music. Subtle differences in tempo, aggression, tone, and especially vocals can be key deciding factors in a metalhead's preferences. Fans of death metal or doom metal might prefer deathly, low-pitched growls, thrash metal and black metal fans might prefer high-pitched, agonized fry screams, and traditional heavy metal enjoyers might only like soaring clean vocals. Therefore, the problem of classifying songs by their scream type could be beneficial fororganizers and streaming services in order to make good event and music reccommendations to fans.
+Fans of heavy metal often have very particular tastes when it comes to their favourite music. Subtle differences in tempo, aggression, tone, and especially vocals can be key deciding factors in a metalhead's preferences. Fans of death metal or doom metal might prefer deathly, low-pitched growls, thrash metal and black metal fans might prefer high-pitched, agonized fry screams, and traditional heavy metal enjoyers might only like soaring clean vocals. Therefore, the problem of classifying songs by their scream type could be beneficial for organizers and streaming services in order to make meaningful event and music reccommendations to fans.
 
 This project will attempt to use a variety of machine learning methods to classify audio snippets of heavy metal screams into five categories:
 - `lowfry`
@@ -19,5 +19,5 @@ Previous work by the curators of the dataset has been done on this problem, with
 
 ## References
 
-1. Kalbag, Vedant, and Alexabder Lerch. ArXiv, vol. 2205.05580, 2022.
+1. Kalbag, Vedant, and Alexander Lerch. ArXiv, vol. 2205.05580, 2022.
 
