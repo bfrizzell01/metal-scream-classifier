@@ -1,28 +1,31 @@
 import pandas as pd
 import os
 import click
+import sys
+import ast
+import io
+import soundfile as sf
 
 
-
-def load_scream_data(output_dir):
+def download_raw_data(output_path_raw):
+    '''
+    Download raw data from HuggingFace to given path
+    '''
     
-    if not os.path.exists(output_dir):
-        os.makedirs(output_dir)
-        print(f"The directory {output_dir} was created.")
-    
+    print('downloading data from HuggingFace...')
     file_path = "hf://datasets/jpdiazpardo/scream_detection_heavy_metal/data/train-00000-of-00001-a72775dc16841570.parquet"
-    print('loading data...')
     df = pd.read_parquet(file_path)[['audio','scream_type','song_name','band_name']]
-    print('done',sep=' ')
-    print('saving to CSV...')
-    df.to_csv(output_dir+'/scream_data.csv')
-    print('done',sep=' ')
-    print('Saved data to '+output_dir+'/scream_data.csv')
+    print('done')
+    
+    print('Saving to CSV...')
+    df.to_csv(output_path_raw)
+    print('done')
+    print('Saved data to ' + output_path_raw)
     
 @click.command()
-@click.option('--output-dir', type=str, help="Path to raw output data")  
-def main(output_dir: str):
-    load_scream_data(output_dir)
+@click.option('--output-path-raw', type=str, help="Path to store raw data")  
+def main(output_path_raw: str):
+    download_raw_data(output_path_raw)
     
 if __name__ == '__main__':
     main()
